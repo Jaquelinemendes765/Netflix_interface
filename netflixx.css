@@ -1,0 +1,155 @@
+:root{
+     --vermelho: rgb(173, 5, 5);
+     --preto: rgba(0, 0, 0, 0.897);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body{
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+
+ .logo{
+     margin-left: 5px;
+    color: rgb(255, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: gainsboro;
+    margin-left: 5px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+.filmeprincipal{
+   font-size: 16px;
+   background-image: url('pop.jpg');
+   height: 400px;
+   background-size: cover;
+
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   /*justify-content: center;*/
+   /*align-items:flex-start;*/
+
+}
+.filmeprincipal .descricao{
+    margin-bottom: 100px;
+}
+.titulo  {
+    
+     text-align: center;
+     transform-origin: 0px 0px;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    font-size: 50px
+    
+}
+.descricao{
+    text-align: center;
+    transform-origin: 0px 0px;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+
+.select-arrow {
+
+    margin-right: 25px;
+    margin-left: 15px;
+    height: 2rem;
+   transform-origin: 0px 0px;
+    background: rgba(0,0,0,.4);
+
+    color: #fff;
+    font-size: .875rem;
+    
+    
+}
+.select-arrow:hover{
+   background-color: white;
+   color: black;
+   
+}
+
+.authLinks.redButton{
+background-color: #e50914;
+line-height: normal;
+padding: 7px 17px;
+font-weight: 400;
+font-size: 1rem;
+float: right;
+}
+
+.botao{
+  /*  transform-origin: 0px 0px; */
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    padding: 20px 20px;
+    width: 200px;
+    align-items: center;
+    justify-items: center;
+    margin-left: 500px;
+}
+    @media screen  and (max-width: 700px) {
+
+          .botao{
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+        
+    }
+
+.botao:hover{
+  background-color: azure;
+  color: black;
+
+}
+/*.botao i {
+    margin-right: 15px;
+}*/
+
+/*.filmeprincipal .container{
+    width: 70%;
+}*/
+
+.box-fime{
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+
+@media screen  and (max-width: 700px) {
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+.filme-carrosel{
+    margin-top: 10px;
+}
